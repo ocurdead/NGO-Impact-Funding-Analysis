@@ -206,11 +206,11 @@ Future program evaluations should consider both beneficiary volume and satisfact
 
 ### Executive Overview Dashboard
 
-![Executive Overview](screenshots/Screenshot 2026-06-11 225038.png)
+![Executive Overview](screenshots/executive_overview.png)
 
 ### Program Impact Analysis Dashboard
 
-(Add Screenshot Here)
+![Program Impact Analysis](screenshots/program_impact_analysis.png)
 
 ---
 
