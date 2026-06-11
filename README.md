@@ -1,46 +1,218 @@
-# NGO-Impact-Funding-Analysis
-An integrated data analytics solution that cleans, consolidates, and evaluates non-governmental organization (NGO) operational data. This project bridges the gap between financial inputs (fundraising) and social outputs (beneficiary impact, program reach, and operational efficiency) to drive data-backed strategic planning.
+# NGO Program Impact & Resource Allocation Analytics Dashboard
 
----
-## 📌 Business Problem & Context
+## Project Overview
 
-Nonprofit organizations often operate multiple cross-regional programs funded by disparate institutional and individual donor streams. Management frequently lacks a centralized mechanism to monitor fundraising performance alongside program effectiveness, creating severe operational bottlenecks:
+Nonprofit organizations often operate with limited resources and funding while serving diverse beneficiary groups. Decision-makers need visibility into program performance, funding utilization, beneficiary reach, and operational effectiveness to maximize social impact.
 
-* **Siloed Reporting:** Difficulty mapping specific donor funds directly to regional project outcomes.
-* **Resource Misallocation:** Inability to accurately identify high-performing vs. underperforming programs.
-* **Scale vs. Quality Blindspots:** Challenges in evaluating whether massive program outreach compromises service quality and beneficiary satisfaction.
-* **Data Vulnerabilities:** Low baseline data quality and lack of structured risk management tracking.
-
-### Project Objectives
-1.  **Fundraising Performance Analytics:** Quantify funding streams, analyze donor category distributions, and map historical funding trends.
-2.  **Program Effectiveness Evaluation:** Measure target achievements across distinct thematic areas (Food, Education, Healthcare, Livelihood).
-3.  **Social Impact Mapping:** Track absolute beneficiary reach, regional impact distribution, and gender-inclusive representation.
-4.  **Operational Efficiency Assessment:** Compute budget utilization rates, resource efficiency ratios, and data governance trends over time.
+This project analyzes NGO operations, donor funding, and program outcomes using **Python, PostgreSQL, and Power BI** to support data-driven decision-making and resource allocation.
 
 ---
 
-## 📊 Key Findings & Business Insights
+## Business Problem
 
-### 1. Fundraising & Donor Dynamics
-* **Total Funding Capitalized:** **$871,500** was raised during the reporting period.
-* **Institutional Reliance:** Institutional donors act as the financial backbone, contributing **$579,000** (the vast majority of resources).
-* **Concentration Risk:** The *World Food Programme Partner Fund* ($348,000) and *UNHCR Rwanda* ($231,000) combined provided **over 66%** of total organizational funding, highlighting critical strategic partners.
+NGO leadership needs answers to critical questions such as:
 
-### 2. Impact, Reach & Regional Distribution
-* **Macro Reach:** A total of **16,590 beneficiaries** were served across all operations.
-* **Program Drivers:** *Food Assistance* represents the primary scale driver (6,170 beneficiaries), followed by *Education Support* (3,840 beneficiaries) and *Healthcare Outreach* (2,680 beneficiaries).
-* **Geographic Focus:** The *Eastern Province* (5,810 beneficiaries) and *Kigali* (5,520 beneficiaries) accounted for **more than two-thirds** of total reach, acting as the primary hubs for program delivery.
-* **Demographic Alignment:** Demographics are heavily aligned with high-vulnerability profiles, primarily *Refugees, Low-Income Families, and Vulnerable Youth*.
+* Which programs create the greatest social impact?
+* Which beneficiary groups receive the most support?
+* Are donor funds being utilized effectively?
+* Which regions receive the highest outreach?
+* How has program performance changed over time?
+* Which programs generate the highest impact relative to funding received?
 
-### 3. Operational Efficiency & Strategic Trade-offs
-* **The Scale vs. Efficiency Dilemma:** * *Food Assistance* optimized **Scale**, maximizing overall footprint and maintaining the highest budget utilization rate (**83.57%**).
-    * *Education Support* optimized **Quality and Efficiency**, yielding the highest beneficiary satisfaction score (**92.13%**) and generating the highest beneficiary return per dollar spent.
-* **Gender Inclusivity:** Female participation exceeded **50% across all programs**, peaking in *Livelihood Training* (**60.29%**) and *Healthcare Outreach* (**59.51%**).
-* **Intervention Effectiveness:** *Refugees & At-risk Families* demonstrated the highest case resolution rate (**23.67%**), proving highly responsive to direct intervention.
-
-### 4. Risk, Growth & Data Governance
-* **Velocity of Growth:** Quarterly beneficiary reach expanded consistently from **3,180 (Q1) to 4,840 (Q4)**, a **52.2% growth** rate driven heavily by a Q3 surge (+930 individuals).
-* **Data Governance Excellence:** Data quality metrics improved from **86% (January) to 94% (December)**, representing continuous refinement in operational monitoring and field reporting.
-* **Risk Profile:** Stable administrative execution, with the organization operating under **Low Risk conditions for 66.67%** of the year and Medium Risk for 33.33%, with zero High-Risk periods recorded.
+Without centralized reporting, these insights are difficult to obtain and can slow strategic decision-making.
 
 ---
+
+## Project Objectives
+
+* Analyze NGO program performance and beneficiary reach.
+* Evaluate donor funding and budget utilization.
+* Measure beneficiary satisfaction and intervention effectiveness.
+* Identify high-performing and resource-efficient programs.
+* Build an interactive dashboard for stakeholders and leadership teams.
+
+---
+
+## Dataset
+
+The analysis is based on four NGO operational datasets:
+
+### Program Impact
+
+* Beneficiaries reached
+* Cases resolved
+* Training sessions conducted
+* Satisfaction rates
+* Program and regional information
+
+### Donor Tracking
+
+* Funding received
+* Funding utilized
+* Remaining budget
+* Donor information
+* Program funding allocation
+
+### Operations Monitoring
+
+* Staff and volunteer counts
+* Community meetings
+* Field visits
+* Data quality scores
+* Operational risk levels
+
+### Dashboard Summary
+
+* High-level NGO performance metrics
+
+---
+
+## Tech Stack
+
+* **Python (Pandas, NumPy)** – Data Cleaning & Feature Engineering
+* **PostgreSQL** – Data Analysis & Business Queries
+* **Power BI** – Dashboard Development & Visualization
+* **Git & GitHub** – Version Control & Documentation
+
+---
+
+## Project Workflow
+
+### Step 1: Data Cleaning & Feature Engineering (Python)
+
+The raw datasets were cleaned and transformed before analysis.
+
+Key tasks included:
+
+* Handling inconsistent data formats
+* Creating derived metrics
+* Standardizing fields across datasets
+* Preparing data for SQL analysis and dashboarding
+
+Created metrics:
+
+* Female Participation Rate
+* Child Support Percentage
+* Refugee Support Percentage
+* Case Resolution Rate
+
+---
+
+### Step 2: Business Analysis (PostgreSQL)
+
+SQL was used to answer key business questions:
+
+* How many beneficiaries were served?
+* Which programs created the largest impact?
+* Which regions received the greatest outreach?
+* Which target groups received the most support?
+* Which programs delivered the highest satisfaction?
+* Who are the largest donors?
+* How effectively are funds being utilized?
+* Which programs generate the highest impact per dollar spent?
+
+---
+
+### Step 3: Dashboard Development (Power BI)
+
+An interactive dashboard was created to provide stakeholders with a clear overview of NGO performance.
+
+### Executive Overview
+
+Includes:
+
+* Total Beneficiaries
+* Total Funding Received
+* Total Funding Utilized
+* Average Satisfaction Score
+* Program Reach Analysis
+* Regional Impact Analysis
+* Donor Contribution Analysis
+
+### Program Impact Analysis
+
+Includes:
+
+* Beneficiary Satisfaction by Program
+* Quarterly Growth Trends
+* Beneficiaries Served by Target Group
+* Program Reach vs Satisfaction Analysis
+
+---
+
+## Key Findings
+
+### Program Performance
+
+* The NGO served **16,590 beneficiaries** across all programs.
+* **Food Assistance** achieved the highest reach, serving **6,170 beneficiaries**.
+* **Education Support** achieved the highest satisfaction score at **92.13%**.
+* Beneficiary reach increased consistently throughout the year, growing from **3,180 beneficiaries in Q1** to **4,840 beneficiaries in Q4**.
+
+### Regional Impact
+
+* **Eastern Province** recorded the highest outreach with **5,810 beneficiaries served**.
+* **Kigali** closely followed with **5,520 beneficiaries served**.
+
+### Target Group Analysis
+
+* **Refugees & Low-income Families** received the highest support, reaching **6,170 beneficiaries**.
+* **Refugees & At-risk Families** achieved the highest intervention success rate with a **23.67% case resolution rate**.
+
+### Funding Analysis
+
+* Total funding received reached **$871,500**.
+* The **World Food Programme Partner Fund** was the largest contributor, providing **$348,000**.
+* **Food Assistance** recorded the highest funding utilization rate at **83.57%**.
+
+### Operational Performance
+
+* Data quality improved from **86% in January** to **94% in December**.
+* The NGO operated under **Low Risk conditions for 66.67% of the year**.
+* Increased staffing and volunteer participation were associated with higher beneficiary outreach.
+
+### Resource Efficiency
+
+* **Education Support** delivered the highest beneficiary impact relative to funding utilized.
+* Higher spending did not always translate into higher satisfaction scores, indicating opportunities to optimize resource allocation.
+
+---
+
+## Recommendations
+
+### 1. Expand High-Impact Programs
+
+Education Support demonstrated both high satisfaction and strong funding efficiency. Increasing investment in this program could maximize overall impact.
+
+### 2. Optimize Resource Allocation
+
+Programs with lower beneficiary impact per dollar should be reviewed to identify operational improvements and resource optimization opportunities.
+
+### 3. Strengthen Support in High-Demand Regions
+
+Eastern Province and Kigali consistently recorded the highest outreach and should remain priority areas for future investment.
+
+### 4. Continue Data Quality Improvements
+
+Improved data quality enables better decision-making and more reliable performance monitoring.
+
+### 5. Balance Reach and Service Quality
+
+Future program evaluations should consider both beneficiary volume and satisfaction outcomes to ensure sustainable impact.
+
+---
+
+## Dashboard Preview
+
+### Executive Overview Dashboard
+
+
+### Program Impact Analysis Dashboard
+
+
+---
+
+## Conclusion
+This project demonstrates how business analytics can help nonprofit organizations monitor performance, improve resource allocation, evaluate program effectiveness, and maximize social impact through data-driven decision-making.
+
+This project demonstrates how business analytics can help nonprofit organizations monitor performance, improve resource allocation, evaluate program effectiveness, and maximize social impact through data-driven decision-making.
