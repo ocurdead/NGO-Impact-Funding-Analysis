@@ -1,0 +1,37 @@
+﻿Month,Region,District,Program,Target Group,Beneficiaries Reached,Female Beneficiaries,Male Beneficiaries,Children Supported,Refugees Supported,Local Vulnerable People,Training Sessions,Cases Resolved,Satisfaction Rate %,SDG Alignment,Program_ID,Quarter
+Jan,Kigali,Gasabo,Education Support,Refugees & Vulnerable Youth,320,175,145,210,180,140,6,48,88,SDG 4 - Quality Education,PRG001,Q1
+Jan,Eastern Province,Kirehe,Food Assistance,Refugees & Low-income Families,540,290,250,310,360,180,3,72,86,SDG 2 - Zero Hunger,PRG002,Q1
+Jan,Southern Province,Huye,Healthcare Outreach,Women & Children,280,165,115,170,90,190,4,41,84,SDG 3 - Good Health,PRG003,Q1
+Feb,Kigali,Nyarugenge,Livelihood Training,Youth & Women,210,130,80,55,75,135,5,36,89,SDG 8 - Decent Work,PRG004,Q1
+Feb,Eastern Province,Bugesera,Education Support,Refugees & Vulnerable Youth,390,205,185,265,250,140,7,55,90,SDG 4 - Quality Education,PRG001,Q1
+Feb,Western Province,Rubavu,Protection & Case Management,Refugees & At-risk Families,260,150,110,135,170,90,4,62,87,SDG 10 - Reduced Inequalities,PRG005,Q1
+Mar,Kigali,Gasabo,Food Assistance,Refugees & Low-income Families,610,335,275,350,410,200,4,81,88,SDG 2 - Zero Hunger,PRG002,Q1
+Mar,Eastern Province,Kirehe,Healthcare Outreach,Women & Children,330,190,140,205,160,170,5,49,85,SDG 3 - Good Health,PRG003,Q1
+Mar,Southern Province,Huye,Livelihood Training,Youth & Women,240,145,95,70,80,160,6,42,91,SDG 8 - Decent Work,PRG004,Q1
+Apr,Kigali,Nyarugenge,Protection & Case Management,Refugees & At-risk Families,300,170,130,145,205,95,5,73,89,SDG 10 - Reduced Inequalities,PRG005,Q2
+Apr,Eastern Province,Bugesera,Food Assistance,Refugees & Low-income Families,680,360,320,395,455,225,4,94,87,SDG 2 - Zero Hunger,PRG002,Q2
+Apr,Western Province,Rubavu,Education Support,Refugees & Vulnerable Youth,430,230,200,300,285,145,8,60,91,SDG 4 - Quality Education,PRG001,Q2
+May,Kigali,Gasabo,Healthcare Outreach,Women & Children,360,215,145,225,135,225,5,54,86,SDG 3 - Good Health,PRG003,Q2
+May,Eastern Province,Kirehe,Livelihood Training,Youth & Women,270,160,110,80,95,175,7,47,92,SDG 8 - Decent Work,PRG004,Q2
+May,Southern Province,Huye,Food Assistance,Refugees & Low-income Families,590,315,275,340,380,210,3,83,88,SDG 2 - Zero Hunger,PRG002,Q2
+Jun,Kigali,Nyarugenge,Education Support,Refugees & Vulnerable Youth,460,245,215,315,300,160,8,68,92,SDG 4 - Quality Education,PRG001,Q2
+Jun,Eastern Province,Bugesera,Protection & Case Management,Refugees & At-risk Families,340,195,145,165,230,110,6,81,90,SDG 10 - Reduced Inequalities,PRG005,Q2
+Jun,Western Province,Rubavu,Healthcare Outreach,Women & Children,390,230,160,240,165,225,6,57,87,SDG 3 - Good Health,PRG003,Q2
+Jul,Kigali,Gasabo,Food Assistance,Refugees & Low-income Families,720,385,335,420,490,230,4,102,89,SDG 2 - Zero Hunger,PRG002,Q3
+Jul,Eastern Province,Kirehe,Education Support,Refugees & Vulnerable Youth,500,265,235,350,330,170,9,74,93,SDG 4 - Quality Education,PRG001,Q3
+Jul,Southern Province,Huye,Livelihood Training,Youth & Women,310,185,125,95,110,200,7,52,91,SDG 8 - Decent Work,PRG004,Q3
+Aug,Kigali,Nyarugenge,Healthcare Outreach,Women & Children,410,245,165,255,175,235,6,61,88,SDG 3 - Good Health,PRG003,Q3
+Aug,Eastern Province,Bugesera,Food Assistance,Refugees & Low-income Families,750,400,350,440,520,230,4,108,90,SDG 2 - Zero Hunger,PRG002,Q3
+Aug,Western Province,Rubavu,Protection & Case Management,Refugees & At-risk Families,380,220,160,185,255,125,6,90,91,SDG 10 - Reduced Inequalities,PRG005,Q3
+Sep,Kigali,Gasabo,Education Support,Refugees & Vulnerable Youth,540,285,255,380,360,180,10,78,94,SDG 4 - Quality Education,PRG001,Q3
+Sep,Eastern Province,Kirehe,Healthcare Outreach,Women & Children,440,265,175,275,190,250,6,66,89,SDG 3 - Good Health,PRG003,Q3
+Sep,Southern Province,Huye,Food Assistance,Refugees & Low-income Families,700,375,325,410,460,240,4,98,90,SDG 2 - Zero Hunger,PRG002,Q3
+Oct,Kigali,Nyarugenge,Livelihood Training,Youth & Women,350,210,140,110,125,225,8,59,93,SDG 8 - Decent Work,PRG004,Q4
+Oct,Eastern Province,Bugesera,Education Support,Refugees & Vulnerable Youth,580,305,275,410,390,190,10,84,94,SDG 4 - Quality Education,PRG001,Q4
+Oct,Western Province,Rubavu,Food Assistance,Refugees & Low-income Families,760,410,350,455,525,235,4,112,91,SDG 2 - Zero Hunger,PRG002,Q4
+Nov,Kigali,Gasabo,Protection & Case Management,Refugees & At-risk Families,420,245,175,205,285,135,7,98,92,SDG 10 - Reduced Inequalities,PRG005,Q4
+Nov,Eastern Province,Kirehe,Livelihood Training,Youth & Women,370,225,145,120,140,230,9,64,94,SDG 8 - Decent Work,PRG004,Q4
+Nov,Southern Province,Huye,Healthcare Outreach,Women & Children,470,285,185,295,210,260,7,72,90,SDG 3 - Good Health,PRG003,Q4
+Dec,Kigali,Nyarugenge,Food Assistance,Refugees & Low-income Families,820,440,380,490,570,250,5,120,92,SDG 2 - Zero Hunger,PRG002,Q4
+Dec,Eastern Province,Bugesera,Education Support,Refugees & Vulnerable Youth,620,330,290,445,420,200,11,91,95,SDG 4 - Quality Education,PRG001,Q4
+Dec,Western Province,Rubavu,Protection & Case Management,Refugees & At-risk Families,450,265,185,220,310,140,8,105,93,SDG 10 - Reduced Inequalities,PRG005,Q4

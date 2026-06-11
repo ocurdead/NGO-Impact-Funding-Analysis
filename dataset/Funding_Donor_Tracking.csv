@@ -1,0 +1,13 @@
+﻿Quarter,Donor Name,Funding Source Type,Program Funded,Grant Amount USD,Funding Received USD,Funding Used USD,Remaining Budget USD,Funding Utilization %,Cost Per Beneficiary USD,Reporting Status,Program_ID
+Q1,UNHCR Rwanda,Institutional Donor,Protection & Case Management,85000,70000,56500,13500,80.7,43.5,Submitted,PRG005
+Q1,World Food Programme Partner Fund,Institutional Donor,Food Assistance,120000,100000,82500,17500,82.5,52.2,Submitted,PRG002
+Q1,Local Private Donors,Private Donations,Education Support,28000,24000,18800,5200,78.3,29.4,Submitted,PRG001
+Q2,European Humanitarian Fund,Grant,Healthcare Outreach,95000,80000,64200,15800,80.3,50.1,Submitted,PRG003
+Q2,Rwanda Community Support Fund,Local Grant,Livelihood Training,45000,39000,31000,8000,79.5,47.6,In Review,PRG004
+Q2,UNHCR Rwanda,Institutional Donor,Protection & Case Management,90000,76000,61000,15000,80.3,45.2,Submitted,PRG005
+Q3,World Food Programme Partner Fund,Institutional Donor,Food Assistance,135000,118000,98200,19800,83.2,51.8,Submitted,PRG002
+Q3,Education Access Foundation,Foundation,Education Support,60000,52000,42100,9900,81.0,31.8,Submitted,PRG001
+Q3,Local Private Donors,Private Donations,Healthcare Outreach,32000,27500,21800,5700,79.3,26.9,Submitted,PRG003
+Q4,European Humanitarian Fund,Grant,Livelihood Training,78000,70000,58200,11800,83.1,55.4,In Review,PRG004
+Q4,UNHCR Rwanda,Institutional Donor,Protection & Case Management,100000,85000,70100,14900,82.5,44.6,Submitted,PRG005
+Q4,World Food Programme Partner Fund,Institutional Donor,Food Assistance,150000,130000,110500,19500,85.0,50.4,Pending,PRG002
